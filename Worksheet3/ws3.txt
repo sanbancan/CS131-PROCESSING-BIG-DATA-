@@ -1,0 +1,12 @@
+#Task1: highest monthly earner from 3 different countries: United States, the United Kingdom, and India
+
+418,DaFuq!?Boom!,19600000,Film & Animation,United States,9200000
+846,Woody & Kleiny,13500000,Comedy,United Kingdom,2000000
+1,T-Series,245000000,Music,India,9000000
+
+#Task2: highest subscribed channel from 3 different categories: Sports, Education, and Entertainment
+
+12,WWE,96000000,Sports,United States,2900000
+4,Cocomelon - Nursery Rhymes,162000000,Education,United States,7900000
+3,MrBeast,166000000,Entertainment,United States,5400000
+3,MrBeast,166000000,Entertainment,United States,5400000

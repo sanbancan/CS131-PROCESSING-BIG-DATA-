@@ -1,0 +1,318 @@
+    1  wget www.github.com
+    2  ls
+    3  ls-lat
+    4  ls-latr
+    5  wget www.github.com
+    6  ls
+    7  git clone
+    8  git clonegit@github.com:sanbancan/cs131.git
+    9  git clone git@github.com:sanbancan/cs131.git
+   10  wget www.github.cpm
+   11  wget www.github.com
+   12  history>cmds.log
+   13  ls
+   14  rm cmds.log
+   15  ls
+   16  mkdir cs131
+   17  ls
+   18  cd cs131
+   19  ls
+   20  mkdir Worksheet1
+   21  ls
+   22  cd Worksheet1
+   23  history>cmds.log
+   24  ls
+   25  git init
+   26  git add .
+   27  git status
+   28  git commit -m
+   29  git commit -m "my first commit"
+   30  [saniaf23@sjsu Worksheet1]$
+   31    git config --global user.email "you@example.com"
+   32    git config --global user.email "sanbancan4@gmail.com"
+   33  git config --global user.name "sania"
+   34  git config --global user.name "sanbancan"
+   35  git commit -m 
+   36  git status
+   37  git commit -m "my first commit"
+   38  git push
+   39  git remote add origin https://github.com/sanbancan/cs131.git
+   40  git push origin
+   41  cat id_rsa.pub
+   42   cd ~/.ssh
+   43  cat id_rsa.pub
+   44   ssh-keygen
+   45  cat id_rsa.pub
+   46  git@github.com:sanbancan/cs131.git
+   47  git remote add origin git@github.com:git@github.com:sanbancan/cs131.git
+   48  git remote add origin git@github.com:sanbancan/cs131.git
+   49  git commit -m "this is my first commit"
+   50  git push --set-upstream origin master
+   51  git remote add origin git@github.com:sanbancan/cs131.git
+   52  git branch -M main
+   53  git push -u origin main
+   54  https://github.com/sanbancan/cs131
+   55  git@github.com:sanbancan/cs131.git
+   56  git remote add origin git@github.com:sanbancan/cs131.git
+   57  git branch -M main
+   58  git push -u origin main
+   59  git remote add origin git@github.com:sanbancan/cs131.git
+   60  git branch -M main
+   61  git push -u origin main
+   62  git branch -M main
+   63  wget www.github.com
+   64  ls
+   65  cd cs131
+   66  git status
+   67  rm index.html.1
+   68  cd ..
+   69  ls
+   70  pwd
+   71  rm index.html1
+   72  clear
+   73  rm index.html1
+   74  rm index.html.1
+   75  ls
+   76  rm index.html.2
+   77  ls
+   78  rm index.html.3
+   79  ls
+   80  rm cs131
+   81  rm -r cs131
+   82  rm -rf cs131
+   83  ls
+   84  clear
+   85  git --version
+   86  git clone git@github.com:sanbancan/cs131.git
+   87  ls
+   88  cd cs131
+   89  ls
+   90  git status
+   91  mkdir Worksheet1
+   92  ls
+   93  git status
+   94  history > cmds.log
+   95  ls
+   96  nano cmds.log
+   97  rm cmds.log
+   98  cd Worksheet1
+   99  history > cmds.log
+  100  ls
+  101  cd ..
+  102  ls
+  103  git status
+  104  git add Worksheet1
+  105  git status
+  106  git commit -m "added worksheet 1"
+  107  git status
+  108  git log
+  109  clear
+  110  git remote
+  111  gitpush
+  112  git remote -v
+  113  git push origin main
+  114  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  115  ls
+  116  git status
+  117  rm [saniaf23@sjsu cs131]$
+  118  rm 'Global YouTube Statistics.csv' 
+  119  ls
+  120  clear
+  121  mkdir Worksheet2
+  122  cd Worksheet2
+  123  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  124  ls
+  125  grep "United States" 'Global YouTube Statistics.csv' 
+  126  grep "United States" 'Global YouTube Statistics.csv' >
+  127  grep "United States" 'Global YouTube Statistics.csv' > counts.txt
+  128  grep "Music" 'Global YouTube Statistics.csv' > counts.txt
+  129  rm counts.txt
+  130  grep "Music" 'Global YouTube Statistics.csv' >> counts.txt
+  131  wc -l counts.txt >> counts.txt
+  132  wc -w counts.txt >> counts.txt
+  133  nano counts.txt
+  134  git status
+  135  cd ..
+  136  ls
+  137  git status
+  138  git add Worsheet2
+  139  git add Worksheet2
+  140  cd Worksheet2
+  141  ls
+  142  csv'
+  143  [saniaf23@sjsu Worksheet2]$ history>c
+  144  q
+  145  :q
+  146  !q
+  147  exit
+  148  n
+  149  n
+  150  n
+  151  ls
+  152  history>cmds.log
+  153  cd ..
+  154  git status
+  155  git add Worksheet2
+  156  git status
+  157  git commit -m
+  158  git commit -m"added worksheet 2"
+  159  git log
+  160  git push origin main
+  161  grep "United States" earnings.txt | awk '{print $2}' | sort -n | tail -n 1
+  162  sort -t ',' -k 3,3 -k 2,2nr youtube_data.csv > sorted_earnings.csv
+  163  cut -d, -f1,3 youtube_2023.csv > countries_and_earnings.csv
+  164  pwd
+  165  cd
+  166  pwd
+  167  mkdir
+  168  mkdir Assignment1
+  169  echo $SHELL
+  170  echo hey
+  171  echo HOME
+  172  echo $HELLO
+  173  echo $HOME
+  174  id
+  175  groups
+  176  cd Assignment1
+  177  mkdir myDir
+  178  man chmod
+  179  chmod u-w myDir
+  180  ls -la
+  181  ls
+  182  ls myDir
+  183  ls -l
+  184  ls -l myDir
+  185  cd myDir
+  186  cd ..
+  187  myDir2
+  188  mkdir myDir2
+  189  mkdir myDir3
+  190  cd myDir2 
+  191  touch myFile.txt
+  192  ls
+  193  mv myFile.txt ../myDir3
+  194  ls
+  195  cd myDir3
+  196  cd ../myDir3
+  197  ls
+  198  free
+  199  free -m
+  200  cat /etc/os-release 
+  201  ls -l
+  202  ls -l /etc/os-release 
+  203  free -m
+  204  login as: saniaf23
+  205  saniaf23@172.20.25.9's password:
+  206  Activate the web console with: systemctl enable --now cockpit.socket
+  207  Register this system with Red Hat Insights: insights-client --register
+  208  Create an account or view all your systems at https://red.ht/insights-dashboard
+  209  Last login: Sun Sep 17 15:48:46 2023 from 172.29.97.171
+  210  [saniaf23@sjsu ~]$ pwd
+  211  /mnt/scratch/FA23_CS131_Ashish/saniaf23
+  212  [saniaf23@sjsu ~]$ cd
+  213  [saniaf23@sjsu ~]$ pwd
+  214  /mnt/scratch/FA23_CS131_Ashish/saniaf23
+  215  [saniaf23@sjsu ~]$ mkdir
+  216  mkdir: missing operand
+  217  Try 'mkdir --help' for more information.
+  218  [saniaf23@sjsu ~]$ mkdir Assignment1
+  219  [saniaf23@sjsu ~]$ echo $SHELL
+  220  /bin/bash
+  221  [saniaf23@sjsu ~]$ echo hey
+  222  hey
+  223  [saniaf23@sjsu ~]$ echo HOME
+  224  HOME
+  225  [saniaf23@sjsu ~]$ echo $HELLO
+  226  [saniaf23@sjsu ~]$ echo $HOME
+  227  /mnt/scratch/FA23_CS131_Ashish/saniaf23
+  228  [saniaf23@sjsu ~]$ id
+  229  uid=1115(saniaf23) gid=1115(saniaf23) groups=1115(saniaf23),77(S77)
+  230  [saniaf23@sjsu ~]$ groups
+  231  saniaf23 S77
+  232  [saniaf23@sjsu ~]$ cd Assignment1
+  233  [saniaf23@sjsu Assignment1]$ mkdir myDir
+  234  [saniaf23@sjsu Assignment1]$ man chmod
+  235  [saniaf23@sjsu Assignment1]$ chmod u-w myDir
+  236  [saniaf23@sjsu Assignment1]$ ls -la
+  237  total 12
+  238  drwxrwxr-x 3 saniaf23 saniaf23 4096 Sep 21 03:02 .
+  239  drwx------ 5 saniaf23 S77      4096 Sep 21 02:53 ..
+  240  dr-xrwxr-x 2 saniaf23 saniaf23 4096 Sep 21 03:02 myDir
+  241  [saniaf23@sjsu Assignment1]$ ls
+  242  myDir
+  243  [saniaf23@sjsu Assignment1]$ ls myDir
+  244  [saniaf23@sjsu Assignment1]$ ls -l
+  245  total 4
+  246  dr-xrwxr-x 2 saniaf23 saniaf23 4096 Sep 21 03:02 myDir
+  247  [saniaf23@sjsu Assignment1]$ ls -l myDir
+  248  total 0
+  249  [saniaf23@sjsu Assignment1]$ cd myDir
+  250  [saniaf23@sjsu myDir]$ cd ..
+  251  [saniaf23@sjsu Assignment1]$ myDir2
+  252  -bash: myDir2: command not found
+  253  [saniaf23@sjsu Assignment1]$ mkdir myDir2
+  254  [saniaf23@sjsu Assignment1]$ mkdir myDir3
+  255  [saniaf23@sjsu Assignment1]$ cd myDir2
+  256  [saniaf23@sjsu myDir2]$ touch myFile.txt
+  257  [saniaf23@sjsu myDir2]$ ls
+  258  myFile.txt
+  259  [saniaf23@sjsu myDir2]$ mv myFile.txt ../myDir3
+  260  [saniaf23@sjsu myDir2]$ ls
+  261  [saniaf23@sjsu myDir2]$ cd myDir3
+  262  -bash: cd: myDir3: No such file or directory
+  263  [saniaf23@sjsu myDir2]$ cd ../myDir3
+  264  [saniaf23@sjsu myDir3]$ ls
+  265  myFile.txt
+  266  [saniaf23@sjsu myDir3]$ free
+  267                total        used        free      shared  buff/cache   available
+  268  Mem:       73080512    11478016     3390400     1067328    58212096    58002176
+  269  Swap:       4218816     1031616     3187200
+  270  [saniaf23@sjsu myDir3]$ free -m
+  271                total        used        free      shared  buff/cache   available
+  272  Mem:          71367       11222        3297        1042       56847       56629
+  273  Swap:          4119        1007        3112
+  274  [saniaf23@sjsu myDir3]$ cat /etc/os-release
+  275  NAME="Red Hat Enterprise Linux"
+  276  VERSION="8.6 (Ootpa)"
+  277  ID="rhel"
+  278  ID_LIKE="fedora"
+  279  VERSION_ID="8.6"
+  280  PLATFORM_ID="platform:el8"
+  281  PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+  282  ANSI_COLOR="0;31"
+  283  CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+  284  HOME_URL="https://www.redhat.com/"
+  285  DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+  286  BUG_REPORT_URL="https://bugzilla.redhat.com/"
+  287  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+  288  REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+  289  REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+  290  REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+  291  [saniaf23@sjsu myDir3]$ ls -l
+  292  total 0
+  293  -rw-rw-r-- 1 saniaf23 saniaf23 0 Sep 21 03:17 myFile.txt
+  294  [saniaf23@sjsu myDir3]$ ls -l /etc/os-release
+  295  lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+  296  [saniaf23@sjsu myDir3]$ free -m
+  297                total        used        free      shared  buff/cache   available
+  298  Mem:          71367       11185        3332        1042       56850       56666
+  299  Swap:          4119        1007        3112
+  300  [saniaf23@sjsu myDir3]$ ^C
+  301  [saniaf23@sjsu myDir3]$
+  302  touch ws3.txt
+  303  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United States'| sort -t',' -k6,6nr -k5,5 | head -n 1 > ws3.txt
+  304  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  305  touch ws3.txt
+  306  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United States'| sort -t',' -k6,6nr -k5,5 | head -n 1 > ws3.txt
+  307  ut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United Kingdom'| sort -t',' -k6,6nr -k5,5 | head -n 1 >> ws3.txt
+  308  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United Kingdom'| sort -t',' -k6,6nr -k5,5 | head -n 1 >> ws3.txt
+  309   cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'India'| sort -t',' -k6,6nr -k5,5 | head -n 1 >> ws3.txt
+  310   cat ws3.txt 
+  311  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'Sports'| sort -t',' -k3,3nr -k5,5 | head -n 1 >> ws3.txt 
+  312   cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'Education'| sort -t',' -k3,3nr -k5,5 | head -n 1 >> ws3.txt
+  313  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'Entertainment'| sort -t',' -k3,3nr -k5,5 | head -n 1 >> ws3.txt
+  314  cat ws3.txt 
+  315  vi ws3.txt 
+  316  vim ws3.txt
+  317  history 
+  318  history>cmds.log
