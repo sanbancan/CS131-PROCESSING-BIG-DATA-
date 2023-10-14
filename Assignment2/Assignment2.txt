@@ -1,0 +1,56 @@
+answer1 
+a)Finding all files in the "/etc" directory and its subdirectories, then save the list of found files into two separate text files, "one.txt" and "two.txt."
+
+b)list of all the files found in the /etc directory and its subdirectories. Each file path is listed on a separate line.
+
+cat two.txt
+Permission denied messages or other errors, would be stored. If the search without errors, two.txt is empty then.
+
+answer2
+As per the Dataset, Top 3 [Month, Year] with the most number of YouTube channels created were :
+1. March,2006 with 15 channels  
+2. July,2014 with 13 channels 
+3. August,2014 with 12 channels
+
+The command(s) used to find it was this: cut,sort,uniq,head
+Explain the command along with the parameters used and the reason for using them.
+ cut -d ',' -f 21,20==for specified dilimeter and column positions using -d and field number using -f for chopping the csv file.
+ sort : to sort the extracted data from the cut command so that uniq command works correctly.
+ uniq -c : to count the uniq combinations of month and year.
+ sort -rn: to sort the data in descending order
+ head: to get the top 3 records.
+
+answer3
+ ps -u saniaf23
+    PID TTY          TIME CMD
+  22572 ?        00:00:01 systemd
+  22574 ?        00:00:00 (sd-pam)
+  22580 ?        00:00:00 sshd
+  22582 pts/49   00:00:00 bash
+  36517 pts/49   00:00:00 ps
+
+answer4 
+a) In the first terminal ran the vi file.txt and let it open
+b) switch to second terminal and ran the ps -usaniaf23
+ observation= new process id is visible with new pid and cmd
+
+c)quit from the terminal 1 
+
+d)after quitting the vi process the pid 37919 and cmd vi no more listed the output of p -u command.
+
+observation = whenever we terminate some process it will no more visible.
+
+answer5
+it is the first process started by kernel when systems boots up.
+
+it is the ancestor of all the processes.
+command used = ps -p 1
+
+answer6
+
+
+ps aux used to display the information about running processes.
+ps: used for listing processes
+option a : display details about all processes running on system
+option u: display details about users who owns each process
+option x: display information about all teh backgrounds and syatem processes.     
