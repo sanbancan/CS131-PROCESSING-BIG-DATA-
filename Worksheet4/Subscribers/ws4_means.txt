@@ -1,0 +1,3 @@
+india avg. subscribers=2.56583e+07
+
+US avg. subscribers= 2.34169e+07
