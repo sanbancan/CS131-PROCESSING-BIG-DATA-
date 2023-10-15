@@ -1,0 +1,62 @@
+answer1
+mkdir Assignment1
+
+answer2
+ouput:
+echo $SHELL
+/bin/bash
+
+answer2
+ echo $HOME
+/mnt/scratch/FA23_CS131_Ashish/saniaf23
+
+answer3
+ id saniaf23
+uid=1115(saniaf23) gid=1115(saniaf23) groups=1115(saniaf23),77(S77)
+
+uid is user id
+gid is group identifier
+
+answer4
+chmod u-w myDir
+
+the command we can use are cd, ls,ls -l but can't create any file.
+
+answer5 
+ mkdir myDir2 myDir3 
+
+answer6 
+touch myFile.txt
+mv myFile.txt ~/myDir3
+
+ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       11657        2449        2227       57261       55896
+Swap:          4119         252        3867
+
+answer9
+ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+answer10
+ ls -l os-release
+-rw-r--r--. 1 root root 592 Apr  6  2022 os-release
+
+user have only read and write and groups and others have only read  permission.
+
