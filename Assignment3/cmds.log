@@ -1,0 +1,1001 @@
+Commands and Outputs for Assignment 3:
+   32  total 0
+   33  -rw-rw-r-- 1 saniaf23 saniaf23 0 Sep 21 03:17 myFile.txt
+   34  [saniaf23@sjsu myDir3]$ ls -l /etc/os-release
+   35  lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+   36  [saniaf23@sjsu myDir3]$ free -m
+   37                total        used        free      shared  buff/cache   available
+   38  Mem:          71367       11185        3332        1042       56850       56666
+   39  Swap:          4119        1007        3112
+   40  [saniaf23@sjsu myDir3]$ ^C
+   41  [saniaf23@sjsu myDir3]$
+   42  touch ws3.txt
+   43  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United States'| sort -t',' -k6,6nr -k5,5 | head -n 1 > ws3.txt
+   44  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   45  touch ws3.txt
+   46  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United States'| sort -t',' -k6,6nr -k5,5 | head -n 1 > ws3.txt
+   47  ut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United Kingdom'| sort -t',' -k6,6nr -k5,5 | head -n 1 >> ws3.txt
+   48  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'United Kingdom'| sort -t',' -k6,6nr -k5,5 | head -n 1 >> ws3.txt
+   49   cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'India'| sort -t',' -k6,6nr -k5,5 | head -n 1 >> ws3.txt
+   50   cat ws3.txt 
+   51  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'Sports'| sort -t',' -k3,3nr -k5,5 | head -n 1 >> ws3.txt 
+   52   cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'Education'| sort -t',' -k3,3nr -k5,5 | head -n 1 >> ws3.txt
+   53  cut -d',' -f 1,2,3,5,8,16 Global\ YouTube\ Statistics.csv | grep -E 'Entertainment'| sort -t',' -k3,3nr -k5,5 | head -n 1 >> ws3.txt
+   54  cat ws3.txt 
+   55  vi ws3.txt 
+   56  vim ws3.txt
+   57  history 
+   58  history>cmds.log
+   59  vim cmds.log
+   60  pwd
+   61  git status
+   62  mkdir Worksheet3
+   63  ls
+   64  cd cs131
+   65  ls
+   66  mkdir Worksheet3
+   67  ls
+   68  cd Worksheet3
+   69  cp /mnt/scratch/FA23_CS131_Ashish/saniaf23/cmds.log /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet3
+   70  ls
+   71  cp /mnt/scratch/FA23_CS131_Ashish/saniaf23/ws3.txt /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet3
+   72  ls
+   73  vim cmds.log
+   74  history
+   75  cd
+   76  ls
+   77  vim cmds.log
+   78  cd myDir3
+   79  cd Assignment1
+   80  ls
+   81  cd myDir3
+   82  ls
+   83  history
+   84  ls
+   85  cd
+   86  ls
+   87  vim ws3.txt
+   88  cat ws3.txt
+   89  cat cmds.log
+   90  ls
+   91  cd cs131
+   92  ls
+   93  cd Worksheet3
+   94  ls
+   95  cat ws3.txt
+   96  git add .
+   97  git status
+   98  git push
+   99  git commit -m "added Worksheet3"
+  100  git push
+  101  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  102  ls
+  103  ls -l
+  104  -lt
+  105  ls -t
+  106  ls -r
+  107  ls -ltr
+  108  vim .bashrc
+  109  ls
+  110  nano .bashrc
+  111  l 
+  112  source .bashrc
+  113  l
+  114  w
+  115  git status
+  116  git clone git@github.com:sanbancan/cs131.git
+  117  git remote
+  118  git remote -v
+  119  cd cs131
+  120  clear
+  121  git status
+  122  ls
+  123  mkdir Worksheet4
+  124  ls
+  125  git status
+  126  cd Worksheet4
+  127  mkdir Subscribers
+  128  ls
+  129  cd ..
+  130  cd Worksheet  
+  131  ls
+  132  cp  'Global YouTube Statistics.csv'
+  133  cp  'Global YouTube Statistics.csv' Worksheet4/
+  134  cp  'Global YouTube Statistics.csv' Worksheet4
+  135  cd..
+  136  cd ..
+  137  cd Worksheet4
+  138  ls
+  139  cp  'Global YouTube Statistics.csv' Worksheet4/Subscribers
+  140  cp  Worksheet2/'Global YouTube Statistics.csv' Worksheet4/Subscribers
+  141  cp /Worksheet2/'Global YouTube Statistics.csv' /Worksheet4/Subscribers
+  142  ls /Worksheet2/
+  143  ls ./Worksheet2/
+  144  cd ..
+  145  ls /Worksheet2/
+  146  ls /Worksheet2
+  147  ls Worksheet2/
+  148  ls Worksheet2/ 'Global YouTube Statistics.csv'
+  149  ls Worksheet2/'Global YouTube Statistics.csv'
+  150  cp  Worksheet2/'Global YouTube Statistics.csv'
+  151  cp  Worksheet2/'Global YouTube Statistics.csv' Worksheet4/Subscribers/
+  152  cd Worksheet4 Subscribers
+  153  cd Worksheet4 Subscribers/
+  154  cd Worksheet4/ Subscribers
+  155  cd Worksheet4/Subscribers
+  156  ls
+  157  clear
+  158  cut -d
+  159  cut -d' ' -f1
+  160  awk -F, '$2 == " United States" {print $3}' youtubers.csv > Worksheet4/Subscribers/United_States.txt
+  161  awk -F, '$2 == " United States" {print $3}' 'Global YouTube Statistics.csv' > Worksheet4/Subscribers/United_States.txt
+  162  ls
+  163  cut -d',' -f2'Global YouTube Statistics.csv'
+  164  cut -d',' -f2 'Global YouTube Statistics.csv'
+  165  cut -d',' -f3 'Global YouTube Statistics.csv'
+  166  clear
+  167  tail -n +2 'Global YouTube Statistics.csv'cut -d',' -f3 'Global YouTube Statistics.csv'
+  168  tail -n +2 'Global YouTube Statistics.csv'|cut -d',' -f3 'Global YouTube Statistics.csv'
+  169  tail -n +2 'Global YouTube Statistics.csv' > cut -d',' -f3 'Global YouTube Statistics.csv'
+  170  tail -n +2 'Global YouTube Statistics.csv' | cut -d',' -f3 'Global YouTube Statistics.csv'
+  171  cut -d',' -f3 'Global YouTube Statistics.csv' > Worksheet4/Subscribers/United_States.txt | tr '\n' '+' | sed 's/+$/\n/' | bc > Worksheet4/Subscribers/United_States_Mean.txt
+  172  cut -d',' -f3 'Global YouTube Statistics.csv' > United_States.txt | tr '\n' '+' | sed 's/+$/\n/' | bc > United_States_Mean.txt
+  173  ls
+  174  nano United_States.txt
+  175  nano United_States.txt_Mean.txt
+  176  cut -d',' -f3 'Global YouTube Statistics.csv' > India.txt | tr '\n' '+' | sed 's/+$/\n/' | bc > India__Mean.txt
+  177  ls
+  178  rm India__Mean.txt India.txt
+  179  rm United_States__Mean.txt United_States.txt
+  180  rm United_States_Mean.txt United_States.txt
+  181  ls
+  182  rm United_States.txt_Mean.txt  
+  183  ls
+  184  grep 'United States' 'Global YouTube Statistics.csv' | cut -d',' -f3 > United_States.txt
+  185  nano United_States.txt
+  186  paste -sd+ United_States.txt | bc > United_States_Mean.txt
+  187  paste -sd+ United_States.txt | bc >> United_States_Mean.txt
+  188  clear
+  189  cut -d',' -f3 'Global YouTube Statistics.csv' > India.txt | tr '\n' '+' | sed 's/+$/\n/' | bc > India_Mean.txt
+  190  cut -d',' -f3 'Global YouTube Statistics.csv' > United_States.txt | tr '\n' '+' | sed 's/+$/\n/' | bc > United_States_Mean.txt
+  191  git status
+  192  git add
+  193  git add .
+  194  git commit
+  195  git commit -m "I am Worksheet4"
+  196  git push
+  197  ls 
+  198  rm cut
+  199  git status
+  200  git add .
+  201  git commit -m "Worksheet4 removed cut"
+  202  git puch
+  203  git push
+  204  ls
+  205  mkdir playground
+  206  ls
+  207  pwd
+  208  playground
+  209  cd playground
+  210  mkdir Dir1 Dir2 Dir3
+  211  ls
+  212  pwd
+  213  cp
+  214  cp /etc/passwd .
+  215  ls
+  216  ls =l
+  217  ls-l
+  218  ls -l
+  219  cp -v /etc/passwd .
+  220  cp -i /etc/passwd .
+  221  less passwd
+  222  file passwd
+  223  mv passwd fun
+  224  ls
+  225  mv fun Dir1
+  226  ls
+  227  ls Dir1
+  228  mv Dir1/fun Dir2
+  229  ls
+  230  ls Dir1
+  231  ls Dir2
+  232  pwd
+  233  mv Dir2/playground
+  234  mv Dir2/fun playground
+  235  ls
+  236  ls -l
+  237  mv playground fun
+  238  ls *
+  239  mv fun Dir1
+  240  ls*
+  241  ls *
+  242  mv Dir1/fun .
+  243  ls *
+  244  mv Dir1 Dir2
+  245  ls
+  246  ls *
+  247  rm fun
+  248  ls *
+  249  rm Dir2
+  250  rm -r Dir2
+  251  ls *
+  252  ls
+  253  cd..
+  254  cd ..
+  255  ls *
+  256  rm -r -i playground
+  257  ls
+  258  ls *.csv
+  259  rm -r 'Global YouTube Statistics.csv.1'
+  260  ls
+  261  cd cs131
+  262  ls 
+  263  ls -l -t 
+  264  cd Worksheet3
+  265  ls
+  266  ls 
+  267  ls * 
+  268  pwd
+  269  cd Wroksheet4
+  270  cd Worksheet4
+  271  cd ..
+  272  Worksheet4
+  273  cd Worksheet4
+  274  ls
+  275  cd /Worksheet2
+  276  pwd
+  277  /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet4
+  278  cd /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet4
+  279  /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet4
+  280  [saniaf23@sjsu Worksheet4]$
+  281  clear
+  282  ls
+  283  cd 
+  284  ls
+  285  cd cs131
+  286  cd Worksheet3
+  287  ls
+  288  pwd
+  289  pwd > path.txt
+  290  ls
+  291  nano path.txt
+  292  /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet3
+  293  cd /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet2
+  294  ls
+  295  cd /mnt/scratch/FA23_CS131_Ashish/saniaf23/cs131/Worksheet4
+  296  ld
+  297  ls
+  298  cd ./Worksheet2
+  299  cd ~/Worksheet2
+  300  echo $.
+  301  cd .Worksheet2
+  302  ls
+  303  $ mkdir Assignment1
+  304  mkdir  Assignment1
+  305  ls
+  306  git show
+  307  git status
+  308  git pull
+  309  git pull 
+  310  git pull all
+  311  git pull
+  312  git pull *
+  313  git pull all
+  314  git clone git@github.com:sanbancan/cs131.git
+  315  ls
+  316  cd cs131
+  317  ls
+  318  git status
+  319  git status  Worksheet2/Worksheet4
+  320  git add Worksheet3/path.txt
+  321  git status
+  322  git add  Worksheet2/Worksheet4
+  323  git status
+  324  git commit
+  325  git commit -m "first commit"
+  326  git status
+  327  git push
+  328  ls
+  329  mkdir assignment1
+  330  pwd 
+  331  echo $SHELL
+  332  echo $HOME
+  333  echo $UID
+  334  groups
+  335  cd ~/Assignment1  # Move to the Assignment1 folder if you are not already in it.
+  336  mkdir myDir  # Create a new directory named myDir under Assignment1.
+  337  chmod u-w myDir  # Remove the write permission for yourself on the directory myDir.
+  338  cd ~/assignment1 
+  339  cd ~/Assignment1  # Move to the Assignment1 folder if you are not already in it.
+  340  mkdir myDir  # Create a new directory named myDir under Assignment1.
+  341  chmod u-w myDir  # Remove the write permission for yourself on the directory myDir.
+  342  git status
+  343  ls
+  344  cd ~/Assignment1
+  345  mkdir myDir
+  346  chmod u-w myDir
+  347  cd myDir
+  348  mkdir myDir2
+  349  mkdir myDir3
+  350  cd myDir2
+  351  touch myFile.txt  # You can also use 'vi' to create and edit the file.
+  352  mv myFile.txt ../myDir3
+  353  free -m
+  354  cat /etc/os-release
+  355  ls -l /etc/os-release
+  356  git push
+  357  git commit
+  358  vi file.txt
+  359  ls
+  360  cd cs131
+  361  ls
+  362  mkdir Assignment2
+  363  cd Assignment2
+  364  nano Assignment2.txt
+  365  find /etc -type f > one.txt 2> two.txt
+  366  cat 1.txt
+  367  cat one.txt
+  368  cat two.txt
+  369  ls
+  370  nano Assignment2.txt
+  371  clear
+  372  cd..
+  373  cd ..
+  374  ls 
+  375  cd Assignment1
+  376  cd assignment1
+  377  ls
+  378  cd ..
+  379  cd Worksheet1
+  380  ls
+  381  cd Worksheet4
+  382  cd ..
+  383  cd Worksheet4/Subscribers
+  384  ls
+  385  cp 'Global Youtube Statistics.csv' ~/cs131/Assignment2
+  386  cp 'Global YouTube Statistics.csv' ~/cs131/Assignment2
+  387  cd ~/cs131/Assignment2
+  388  ls
+  389  mv 'Global YouTube Statistics.csv'  dataset.csv
+  390  ls
+  391  cut -d ','-f 
+  392  cut -d ','-f 20 dataset.csv
+  393  cut -d ',' -f 20 dataset.csv
+  394  clear
+  395  cut -d ',' -f 20,21 dataset.csv
+  396  clear
+  397  cut -d ',' -f 21,20 dataset.csv
+  398  clear
+  399  cut -d ',' -f 21,20 dataset.csv | sort 
+  400  clear
+  401  cut -d ',' -f 21,20 dataset.csv | sort 
+  402  clear
+  403  cut -d ',' -f 21,20 dataset.csv | sort | uniq -c
+  404  clear
+  405  cut -d ',' -f 21,20 dataset.csv | sort | uniq -c | sort -rn
+  406  clear
+  407  cut -d ',' -f 21,20 dataset.csv | sort | uniq -c | sort -rn | head
+  408  cut -d ',' -f 21,20 dataset.csv | sort | uniq -c | sort -rn | head -3
+  409  clear
+  410  cut -d ',' -f 21,20 dataset.csv | sort | uniq -c | sort -rn | head -3 > top3channels
+  411  cut -d ',' -f 21,20 dataset.csv | sort | uniq -c | sort -rn | head -3 > top3channels.txt
+  412  nano Assignment2.txt
+  413  cat top3channels.txt
+  414  nano Assignment2.txt
+  415  ps -u saniaf23
+  416  nano Assignment2.txt
+  417  ps -u saniaf23
+  418  nano Assignment2.txt
+  419  ps -p 1
+  420  nano Assignment2.txt
+  421  ps aux
+  422  nano Assignment2.txt
+  423  clear
+  424  ps a 
+  425  ps u
+  426  ps x
+  427  git status
+  428  cd ..
+  429  git status
+  430  git add
+  431  git add.
+  432  git add .
+  433  git status
+  434  git commit
+  435  git push
+  436  cd assignment1
+  437  cd cs131
+  438  ls
+  439  cd assignment1
+  440  cd ..
+  441  rm
+  442  rm assignment1
+  443  rm assignment1 -rf
+  444  ls
+  445  mkdir Assignment1
+  446  cd Assignment1.txt
+  447  cd Assignment1
+  448  nano Assignment1.txt
+  449  cd ..
+  450  ls
+  451  cd ..
+  452  ls
+  453  cat cmds.log
+  454  clear
+  455  cat history
+  456  cat history > cmds.log
+  457   history > cmds.log
+  458   cat cmds.log
+  459  clear
+  460  cd cs131/Assignment1
+  461  echo $SHELL
+  462  echo $HOME
+  463  id saniaf23
+  464  mkdir myDir
+  465  ls -a
+  466  ls -l
+  467  chmod u-w myDir
+  468  ls -l
+  469  cd myDir
+  470  ls 
+  471  ls -l
+  472  touch temp.txt
+  473  mkdir myDir2 myDir3
+  474  cd ..
+  475  mkdir myDir2 myDir3
+  476  cd myDir
+  477  cd myDir2
+  478  cd ..
+  479  cd myDir2
+  480  touch temp.txt
+  481  rm temp.txt
+  482  touch myFile.txt
+  483  mv myFile.txt
+  484  mv myFile.txt ~/myDir3
+  485  cd myDir3
+  486  cd ~/myDir3
+  487  cd ..
+  488  cd myDir3
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd myDir
+  493  ls
+  494  touch myFile.txt
+  495  cd ..
+  496  cd myDir2
+  497  touch myFile.txt
+  498  ls
+  499  mv myFile.txt
+  500  mv myFile.txt /myDir3/
+  501  mv myFile.txt ~/myDir3/
+  502  cd cs131
+  503  cd ..
+  504  ls
+  505  pwd
+  506  cd myDir2
+  507  ls 
+  508  mv myFile.txt ~/myDir3
+  509  cd ..
+  510  ls
+  511  cd myDir3
+  512  ls
+  513  cd ..
+  514  cd myDir2
+  515  ls
+  516  touch myFile.txt
+  517  mv myFile.txt myDir3
+  518  mv myFile.txt myDir3/
+  519  mv myFile.txt myDir3
+  520  cd myDir3
+  521  cd ..
+  522  cd myDir3
+  523  ls
+  524  ls -l
+  525  cd myDir2
+  526  cd ..
+  527  cd myDir2
+  528  ls
+  529  ls -l
+  530  rm myDir3
+  531  ls
+  532  nano myFile.txt
+  533  mv myFile.txt
+  534  mv myFile.txt /myDir3
+  535  ls
+  536  cd ..
+  537  ls -l
+  538  mv myFile.txt myDir3/
+  539  ls
+  540  cd myDir2
+  541  mv myFile.txt myDir3/
+  542  mv myFile.txt ./myDir3/
+  543  mv myFile.txt ./myDir3
+  544  ls
+  545  free 
+  546  free -m
+  547  clear
+  548  cd ..
+  549  cd /
+  550  ls
+  551  cd etc 
+  552  ls
+  553  cat /etc/os-release
+  554  ls -l /etc/os-release
+  555  cd ..
+  556  cd usr 
+  557  cd lib 
+  558  ls -l
+  559  ls -l os-release
+  560  cd ..
+  561  exit
+  562  cd /cs131 Assignment1
+  563  cd cs131/Assignment1
+  564  nano Assignment1.txt
+  565  cd ..
+  566  git status
+  567  git add .
+  568  git commit -m "my first commit"
+  569  git push
+  570  cd Assignment1
+  571  cd myDir2
+  572  ls
+  573  rm myDir3
+  574  cd ..
+  575  ls 
+  576  cd myDir3
+  577  ls 
+  578  touch myFile.txt
+  579  cd ..
+  580  git status
+  581  git add .
+  582  git commit
+  583  git push
+  584  cd cs131
+  585  cd ..
+  586  cd cs131
+  587  cd ..
+  588  cd Worksheet4
+  589  clear
+  590  cd ..
+  591  cd cs131
+  592  ls
+  593  cd saniaf23
+  594  ls
+  595  cd cs131
+  596  ls
+  597  cd Worksheet4
+  598  ls
+  599  cd Subscribers
+  600  ls
+  601  rm *.txt
+  602  mv 'Global YouTube Statistics.csv' dataset.csv
+  603  ls
+  604  awk -F',' 'NR > 1 && $8 == "India" { print $3 > "India.txt" }' dataset.csv
+  605  ls
+  606  cat India.txt
+  607  clear
+  608  awk -F',' 'NR > 1 && $8 == "United States" { print $3 > "United_States.txt" }' dataset.csv
+  609  ls
+  610  cat 
+  611  ls
+  612  cat United_States.txt
+  613  clear
+  614  awk '{ total += $1; count++ } END { print total / count }' India.txt > ws4_means.txt | bc
+  615  ls
+  616  cat ws4_means.txt
+  617  rm ws4_meansls
+  618  ls
+  619  dataset.csv  India.txt  United_States.txt  ws4_means.txtls
+  620  dataset.csv  India.txt  United_States.txt  ws4_means.txt
+  621  cd cs131
+  622  cd Worksheet4
+  623  ls
+  624  cd Subscribers
+  625  ls
+  626  cat ws4_means.txt
+  627  awk '{ total += $1; count++ } END { print total / count }' United_States.txt >> ws4_means.txt
+  628  la
+  629  ls
+  630  cat ws4_means.txt
+  631  nano ws4_means.txt
+  632  cd ..
+  633  git status
+  634  git add .
+  635  git commit -m "worksheet4 correction"
+  636  clear
+  637  ls
+  638  cd Subscribers
+  639  ls 
+  640  cd ..
+  641  cd .
+  642  ls
+  643  cd ..
+  644  ls
+  645  git add .
+  646  git commit
+  647  'git push
+  648  git push 
+  649  ls
+  650  mkdir Worksheet 5
+  651  ls
+  652  mkdir Worksheet5
+  653  ls
+  654  cd Worksheet5
+  655  mkdir UnitedStates
+  656  ls
+  657  cat G
+  658  cat 'Global Youtube Statistics.csv'
+  659  cat dataset.csv
+  660  for Country in 'Global Youtube Statistics.csv' do echo 
+  661  for country in for tbl in `cat /tmp/tables` ; do      echo "$tbl"
+  662  for Country in 'Global Youtube Statistics.csv' do echo '$Country' done; for tbl in 'Global Youtube Statistics.csv' do echo '$Country' done'
+  663  cat /tmp/tables | while read line; do echo "$line"; done
+  664  cat 'Global Youtube Statistics.csv' | while read line; do echo "$line"; done
+  665  ls
+  666  rm 'Global Youtube Statistics.csv'
+  667  ls
+  668  cd Worksheet5
+  669  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  670  ls
+  671  grep "United States" 'Global Youtube Statistics.csv'
+  672  grep "United States" 'Global YouTube Statistics.csv'
+  673  clear
+  674  for tbl in `cat /tmp/tables` ; do      echo "$tbl"
+  675  > for tbl in `cat /tmp/tables` ; do      echo "$tbl"
+  676  > for tbl in `Global YouTube Statistics.csv` ; do      echo "$tbl"
+  677  > for tbl in `Global YouTube Statistics.csv` do echo "$tbl" done
+  678  > for tbl in `cat Global YouTube Statistics.csv` do echo "$tbl" done
+  679  cat 'Global YouTube Statistics.csv' | while read line; do echo "$line"; done;
+  680  ls
+  681  rm Worksheet
+  682  cd cs131
+  683  rm Worksheet
+  684  rmdir Worksheet
+  685  cd ..
+  686  rmdir Worksheet
+  687  ls
+  688  cd Worksheet5
+  689  ls
+  690  cat UnitedStates/
+  691  cd UnitedStates/
+  692  ls
+  693  cd ..
+  694  ls
+  695  touch script.sh$
+  696  vim script.sh 
+  697  sh script.sh 
+  698  vim script.sh 
+  699  sh script.sh 
+  700  vim script.sh 
+  701  sh script.sh 
+  702  vim script.sh 
+  703  sh script.sh 
+  704  vim script.sh 
+  705  sh script.sh 
+  706  vim script.sh 
+  707  sh script.sh 
+  708  vim script.sh 
+  709  sh script.sh 
+  710  ls
+  711  cd UnitedStates
+  712  ls
+  713  echo 'Global YouTube Statistics.csv'
+  714  cd..
+  715  cd ..
+  716  ls
+  717  Worksheet5/UnitedStates/music.txt  =$(mktemp)[
+  718  ./Worksheet5/UnitedStates/music.txt  =$(mktemp)
+  719  csv = "Global YouTube Statistics.csv" awk -F ',' '{ print "Line:", NR, "Country", $5, "category", $8}' "$csv"
+  720  csv_file = "Global YouTube Statistics.csv"
+  721  $csv_file = "Global YouTube Statistics.csv"
+  722  $csv_file = 'Global YouTube Statistics.csv'
+  723  $input_file = 'Global YouTube Statistics.csv
+  724  IFS = $'\n' for line in $(cat $"input_file") do country=$(echo "$line" | awk -F',' '{print $8}')if [["$country" == "United States]]; then category = $(echo "$line" |awk -F',' '{print $5}') echo "$line" >> "Worksheet5/UnitedStates/$category.txt" fi done
+  725  ls
+  726  $csv_file = 'Global YouTube Statistics.csv'
+  727  ls Worksheet5
+  728  $csv_file = 'Global YouTube Statistics.csv'
+  729  $input_file = 'Global YouTube Statistics.csv'
+  730  $input_file = "Global YouTube Statistics.csv"
+  731  $input_file='Global YouTube Statistics.csv'
+  732  input_file='Global YouTube Statistics.csv'
+  733  IFS = $'\n' for line in $(cat $"input_file") do country=$(echo "$line" | awk -F',' '{print $8}')if [["$country" == "United States]]; then category = $(echo "$line" |awk -F',' '{print $5}') echo "$line" >> "Worksheet5/UnitedStates/$category.txt" fi done
+  734  ls
+  735  cd Worksheet5
+  736  cd
+  737  ld
+  738  ls
+  739  cd Worksheet5
+  740  ls
+  741  cd UnitedStates
+  742  ls
+  743  IFS = $'\n' for line in $(cat $"input_file") do country=$(echo "$line" | awk -F',' '{print $8}')if [["$country" == "United States]]; then category = $(echo "$line" |awk -F',' '{print $5}') echo "$line" >> "$category.txt" fi done 
+  744  ls
+  745  cd
+  746  cd Worksheet5
+  747  IFS = $'\n' for line in $(cat $"input_file") do country=$(echo "$line" | awk -F',' '{print $8}')if [["$country" == "United States]]; then category = $(echo "$line" |awk -F',' '{print $5}') echo "$line" >> "UnitedStates/$category.txt" fi done 
+  748  ls
+  749  cd UnitedStates/
+  750  ls
+  751  cd ..
+  752  input_file = 'Global YouTube Statistics.csv'
+  753  input_file="Global YouTube Statistics.csv"
+  754  IFS = $'\n' for line in $(cat $"input_file") do country=$(echo "$line" | awk -F',' '{print $8}')if [["$country" == "United States]]; then category = $(echo "$line" |awk -F',' '{print $5}') echo "$line" >> "UnitedStates/$category.txt" fi done 
+  755  cd
+  756  ls
+  757  cd UnitedStates/
+  758  ls
+  759  IFS = $'\n' for line in $(cat $"input_file") do country=$(echo "$line" | awk -F',' '{print $8}')if [["$country" == "United States]]; then category = $(echo "$line" |awk -F',' '{print $5}') echo "$line" >> "UnitedStates/$category.txt" fi done 
+  760  cd ..
+  761  ls
+  762  rm UnitedStates
+  763  rmdir UnitedStates
+  764  input_file = "Global YouTube Statistics.csv"
+  765  input_file = 'Global YouTube Statistics.csv'
+  766  cd ..
+  767  ls
+  768  cat cmds.log
+  769  history
+  770  cd cs131
+  771  ls
+  772  mkdir Worksheet5
+  773  touch script.sh
+  774  vi script.sh
+  775  head -5 GYS.csv 
+  776  vi script.sh
+  777  ls
+  778  chmod +x script.sh
+  779  ls
+  780  vi script.sh
+  781  ls
+  782    443  ./script.sh Music Entertainment Gaming Comedy
+  783  ls
+  784  cat ws5.txt
+  785  ./script.sh Music Entertainment Gaming Comedy
+  786  cs 131
+  787  cs131
+  788  cd cs131
+  789  ls
+  790  vi script.sh
+  791  cat ws5.txt
+  792  vi script.sh
+  793  ls
+  794  cat ws5.txt
+  795  ./script.sh Music Entertainment Gaming Comedy
+  796  cd cs131
+  797  ls
+  798  vi script.sh
+  799  head -5 GYS.csv
+  800  chmod +x script.sh
+  801  ls
+  802  /script.sh Music Entertainment Gaming Comedy
+  803  history
+  804  vi script.sh
+  805  cat ws5.txt
+  806  vi script.sh
+  807  ls
+  808  cd ..
+  809  rmdir Worksheet5
+  810  rmdir script.sh
+  811  rm Worksheet5
+  812  cd cs131
+  813  rmdir script.sh
+  814  rmdir Worksheet5
+  815  mkdir Worksheet5
+  816  clear
+  817  touch script.sh
+  818  vi script.sh
+  819  chmod +x script.sh
+  820  ls
+  821  vi script.sh
+  822  ls
+  823  cat ws5.txt
+  824  ./script.sh Music Entertainment Gaming Comedy
+  825  vi script.sh
+  826  clear
+  827  head -5 'Global YouTube Statistics.csv'
+  828  vi script.sh
+  829  chmod +x script.sh
+  830  ./script.sh Music Entertainment Gaming Comedy
+  831  vi script.sh
+  832  ls
+  833  cat ws.txt
+  834  cat ws5.txt
+  835  touch ws5.txt
+  836  cat ws5.txt
+  837  cd Worksheet5
+  838  ls
+  839  cd ..
+  840  mv ws5.txt Worksheet5
+  841  mv script.sh  Worksheet5
+  842  cd Worksheet5
+  843  ls
+  844  cat UnitedStates/
+  845  touch UnitedStates/
+  846  cat United_States.txt
+  847  ls
+  848  head -5 "dataset.csv"
+  849  head -5 'dataset.csv'
+  850  head -5 dataset.csv
+  851  cd cs131
+  852  ls
+  853  cd ..
+  854  cd cs131
+  855  head -5 dataset.csv
+  856  ls
+  857  cd Worksheet4
+  858  head -5 dataset.csv
+  859  cd Worksheet5
+  860  cd ..
+  861  cd Worksheet5
+  862  ls
+  863  cat United_States/
+  864  touch United_States
+  865  ls
+  866  cat United_States
+  867  cd United_States
+  868  cd United_States/
+  869  cd ..
+  870  cd cs131
+  871  cd Worksheet5
+  872  ls
+  873  cd United_States
+  874  cat United_States
+  875  ls
+  876  rmdir United_States
+  877  touch United_States/
+  878  cat United_States
+  879  cd ..
+  880  input_file="Global%20YouTube%20Statistics.csv"
+  881  mkdir -p "United States"
+  882  IFS=$'\n'
+  883  for line in $(cat "$input_file");  do     country=$(echo "$line" | awk -F',' '{print $8}');     if [[ "$country" == "United States" ]]; then         category=$(echo "$line" | awk -F',' '{print $5}');         echo "$line" >> "United States/$category.txt";     fi; done
+  884  IFS=$'\n'
+  885  for line in $(cat "$input_file"); do     country=$(echo "$line" | awk -F',' '{print $8}');     if [[ "$country" == "United States" ]]; then         category=$(echo "$line" | awk -F',' '{print $5}');         echo "$line" >> "United States/$category.txt";     fi; done
+  886  vi cat inputfile
+  887  history
+  888  cd
+  889  cd cs131
+  890  ls
+  891  cd Worksheet5
+  892  ls
+  893  cd United_States
+  894  mkdir United_States
+  895  cat United_States 
+  896  rm United_States 
+  897  ls
+  898  mkdir United_States
+  899  cd Worksheet5
+  900  cp /cs131/Worksheet2/Global YouTube Statistics.csv
+  901  cp /cs131/Worksheet2/
+  902  cp -r /cs131/Worksheet2/
+  903  cp -r /cs131/Worksheet2/ /cs131/Worksheet5
+  904  cd 
+  905  cd  cs131
+  906  cp Worksheet2 Worksheet5
+  907  cp -r Worksheet2 Worksheet5
+  908  ls
+  909  cd Worksheet5
+  910  ls
+  911  cp cs131/Assignment2/dataset.csv cs131/Worksheet5
+  912  cd 
+  913  cp cs131/Assignment2/dataset.csv cs131/Worksheet5
+  914  cd cs131/Worksheet5
+  915  ls
+  916  rm -r Worksheet2
+  917  ls
+  918  cd United_States/
+  919  ls
+  920  touch script.sh
+  921  vi script.sh
+  922  head -5 dataset.csv
+  923  cp cs131/Worksheet5/dataset.csv
+  924  cd ..
+  925  cp dataset.csv
+  926  cp dataset.csv United_States
+  927  cd United_States
+  928  ls
+  929  head -5 dataset.csv
+  930  head -10 dataset.csv
+  931  ./script.sh Music Entertainment Gaming Comedy
+  932  chmod +x script.sh
+  933  ./script.sh Music Entertainment Gaming Comedy
+  934  vi script.sh
+  935  ls
+  936  cat Worksheet5.txt
+  937  vi script.sh
+  938  ./script.sh Music Entertainment Gaming Comedy
+  939  head -5 dataset.csv
+  940  vi script.sh
+  941  ./script.sh Music Entertainment Gaming Comedy
+  942  cat Worksheet5.txt
+  943  vi script.sh
+  944  ./script.sh Music Entertainment Gaming Comedy
+  945  ls
+  946  cd Worksheet5
+  947  ls
+  948  cd U
+  949  cd UnitedStates/
+  950  ls
+  951  cd comedy
+  952  cd Comedy
+  953  ls
+  954  vi script.sh
+  955  cd ..
+  956  cd United_States/
+  957  ls
+  958  rm Worksheet5
+  959  rm -r
+  960  rm -r Worksheet5
+  961  rm Worksheet5.txt
+  962  vi script.sh
+  963  ./script.sh Music Entertainment Gaming Comedy
+  964  ls
+  965  cat Entertainment.txt 
+  966  cat Worksheet5.txt
+  967  history  >> commands.log
+  968  ls
+  969  cat commands.log 
+  970  cd 
+  971  git push
+  972  git init
+  973  cd cs131
+  974  git init
+  975  git status
+  976  git push
+  977  ls
+  978  cd United_States/
+  979  ls
+  980  cd 
+  981  cd cs131
+  982  git init
+  983  git status
+  984  git commit
+  985  git commit -m "Worksheet5"
+  986  git status
+  987  git init
+  988  git add .
+  989  git status
+  990  git commit -m " Worksheet5"
+  991  git push
+  992  ls
+  993  rm script.sh
+  994  ls
+  995  git init
+  996  git add .
+  997  git commit -m " Worksheet5."
+  998  git push
+  999  ls
+ 1000  cd cs131
+ 1001  ls
+ 1002  mkdir Assignment3
+ 1003  cd Assignment3
+ 1004  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
+ 1005  wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake 
+ 1006  wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/ps.fake 
+ 1007  ls
+ 1008  clear
+ 1009  man last
+ 1010  wc -l < last.fake
+ 1011  grep 'f23' last.fake > lastf23.fake
+ 1012  wc -l < lastf23.fake
+ 1013  grep 'Sun' lastf23.fake | awk '{print $1}' | sort | uniq > sunday_users.txt
+ 1014  echo "The list of people who worked on Sunday are:"
+ 1015  cat sunday_users.txt
+ 1016  echo "Kudos to these people for putting in the work"
+ 1017  awk '{split($6,a,":"); if (a[1]>=23 || a[1]<=4) print $1}' lastf23.fake | sort | uniq > night_owls.txt
+ 1018  echo "Night Owls List:"
+ 1019  cat night_owls.txt
+ 1020  echo "Night Owls are dope. Please ensure you get enough sleep though."
+ 1021  awk '{split($6,a,":"); if (a[1]>=5 && a[1]<=9) print $1}' lastf23.fake | sort | uniq > early_birds.txt
+ 1022  echo "Early Birds List:"
+ 1023  cat early_birds.txt
+ 1024  echo "Early Birds are dope. Please ensure you get enough sleep though."
+ 1025  awk '$1 ~ /^t/ {print $1}' lastf23.fake
+ 1026  awk '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1027  sed -i 's/[a-zA-Z0-9 ]//g' passwd.fake
+ 1028  sort -u passwd.fake
+ 1029  echo "Commands and Outputs for Assignment 3:" > cmds.log
+ 1030  ls
+ 1031  history >> cmds.log
